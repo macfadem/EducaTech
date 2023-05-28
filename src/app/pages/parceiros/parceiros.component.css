@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+body {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    margin: 5rem;
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Play', sans-serif;
+    padding: 0 2rem;
+    color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+}
+
+.imagemNote {
+    display: grid;
+}
+
+.imagemNote img {
+    width: 90%;
+    object-fit: cover;
+}
+
+.cardText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardText h3 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    border-bottom: 3px solid #09E1CD;
+    padding-bottom: 1rem;
+}
+
+.cardText p {
+    color: black;
+    font-size: 1rem;
+}
+
+.carousel {
+    color: black;
+    margin: 10rem;
+}
+
+.text {
+    color: black;
+    font-size: 1.2rem;
+    margin: 2rem;
+    text-align: justify;
+    max-width: 60rem;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.section {
+    max-width: 60rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+    justify-content: center;
+}
+
+.descricao {
+    max-width: 60rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.pontosTrabalho ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pontosTrabalho ul li {
+    background-color: #F5F7F7;
+    color: black;
+    padding: 1rem;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+    position: relative;
+    font-size: 1rem;
+}
+
+.pontosTrabalho ul li:before {
+    content: "+";
+    position: absolute;
+    left: -1.5rem;
+    top: 50%;
+    transform: translateY(-50%) translateX(300%);
+    font-size: 1.5rem;
+    color: black;
+}
