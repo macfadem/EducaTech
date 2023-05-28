@@ -1,11 +1,10 @@
 <div class="header">
     <img src="./../../../assets/LogoColorido.png" alt="Logo">
     <div class="nav">
-        <div class="nav-item active">Home</div>
-        <div class="nav-item">Sobre nós</div>
-        <div class="nav-item">Como Funciona</div>
-        <div class="nav-item">Parceiros</div>
-        <div class="nav-item">Doe</div>
+        <a routerLink="/" class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+        <a routerLink="/sobre" class="nav-item" routerLinkActive="active">Sobre nós</a>
+        <a routerLink="/parceiros" class="nav-item" routerLinkActive="active">Parceiros</a>
+        <a routerLink="/doe" class="nav-item" routerLinkActive="active">Doe</a>
     </div>
     <button>
         Acessar

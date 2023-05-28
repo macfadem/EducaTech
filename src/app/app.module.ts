@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ParceirosComponent } from './pages/parceiros/parceiros.component';
 import { DoeComponent } from './pages/doe/doe.component';
+import { CarousselComponent } from './components/caroussel/caroussel.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +19,12 @@ import { DoeComponent } from './pages/doe/doe.component';
     HomeComponent,
     AboutComponent,
     ParceirosComponent,
-    DoeComponent
+    DoeComponent,
+    CarousselComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
