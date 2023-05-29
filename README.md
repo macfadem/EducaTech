@@ -1,27 +1,15 @@
 # Educatech
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Esse repositório contém o projeto de front-end desenvolvido para o Hackathon do Potência Tech e iFood.
 
-## Development server
+Este não é o projeto completo e ainda requer melhorias em:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Acesso ao Backend para Autenticação de Usuários
 
-## Code scaffolding
+Uma melhoria poderia ser a implementação de um sistema de autenticação JWT, OAuth ou outro método de autenticação seguro para garantir a segurança dos dados dos usuários.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Inscrição de Novos Notebooks em Doações
 
-## Build
+A funcionalidade para a inscrição de novos notebooks para doações ainda não foi implementada. Uma sugestão seria criar um formulário de inscrição que permita aos usuários submeter informações sobre os notebooks que desejam doar. Essas informações poderiam então ser enviadas para nossa API de backend para serem processadas e armazenadas.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Por favor, sinta-se à vontade para contribuir com este projeto e ajudar a melhorar a educação tecnológica!
