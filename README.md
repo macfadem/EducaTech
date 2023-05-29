@@ -1,4 +1,4 @@
-# Educatech
+# Equipatech
 
 Esse repositório contém o projeto de front-end desenvolvido para o Hackathon do Potência Tech e iFood.
 
